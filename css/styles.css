@@ -1,0 +1,436 @@
+body {
+    background-image: url(../imagenes/palfondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.img-nav {
+    width: 30px;
+    height: 24px;
+}
+
+h4 {
+    font-size: 155%;
+}
+
+/*Cosas INICIO*/
+
+.parte-arriba {
+    display: grid;
+    grid-template-areas: 
+    "foto"
+    "titulo"
+    "descripcion";
+}
+
+
+.logogeneral {
+    grid-area: foto;
+    margin-left: 10%;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.texto1 {
+    grid-area: titulo;
+    margin-left: 15%;
+    width: 450px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgba(127, 255, 212, 0.692);
+}
+
+.texto2{
+    grid-area:descripcion;
+    width: 400px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 15%;
+    background-color: rgba(127, 255, 212, 0.692);
+}
+
+.selector-cajas {
+    display: flex;
+    gap: 6%;
+justify-content: center;
+}
+
+.fotocaja2 {
+    margin-bottom: 0px;
+    height: 300px;
+}
+
+.fotocaja1 {
+    margin-bottom: 0px;
+    height: 300px;
+}
+
+/*cosas para FAQ*/
+
+/*Cosas de CAJAS*/
+.panel-cajas-titulo {
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    height: 50px;
+    width: 174px;
+    text-align: center;
+    background-color: rgba(127, 255, 212, 0.514);
+}
+
+.contenedor-cajas {
+    display: grid;
+    grid-template-rows: 270px 30px;
+    grid-template-areas:
+    "caja"
+    "boton";
+}
+
+.foto-cajas {
+    width: 22%;
+    margin-top: 0%;
+    margin-left: 38%;
+    grid-area: caja;
+}
+
+.boton-cajas {
+    color: rgb(255, 255, 255);
+    background-color: rgba(20, 187, 117, 0.925);
+    width: 110px;
+    margin-left: 45%;
+    grid-area: boton;
+}
+
+.contenedor-skins-caja1 {
+    font-family: 'Franklin Gothic Medium';
+}
+
+.contenedor-skins-cajas-titulo {
+    margin-left: 4%;
+    background-color: rgba(127, 255, 212, 0.514);
+    width: 270px;
+    height: 43px;
+    text-align: center;
+}
+
+.lugar-skins-caja1 {
+    display: flex;
+    margin-top: 4%;
+    gap: 1%;
+}
+
+.skin1-caja1 {
+    border-radius: 25%;
+    margin-bottom: 1%;
+    margin-left: 13%;
+    width: 14%;
+}
+
+.info-skin1-caja1 {
+    display: flex;
+    gap:40px;
+    margin-top: 8%;
+}
+
+.precio-skin1-caja1 {
+    margin-left: 3%;
+}
+
+.foto-skin1-caja1 {
+    display: flex;
+    position: relative;
+    margin-left: 13%;
+    width: 65px;
+    height: 50px;
+}
+
+.nombre-skins-caja1-txt {
+    font-size: 120%;
+    margin-top: 5%;
+}
+
+/* a partir de acá cambio cosamas para skin 2 */
+
+.skin2-caja1 {
+    border-radius: 25%;
+    margin-bottom: 1%;
+    width: 14%;
+}
+
+.info-skin2-caja1 {
+    display: flex;
+    gap:41px;
+    margin-top: 8%;
+}
+
+.precio-skin2-caja1 {
+    margin-left: 3%;
+}
+
+.foto-skin2-caja1 {
+    display: flex;
+    position: relative;
+    margin-left: 8%;
+    width: 65px;
+    height: 50px;
+}
+
+.skin3-caja1 {
+    border-radius: 25%;
+    margin-bottom: 1%;
+    width: 14%;
+}
+
+.info-skin3-caja1 {
+    display: flex;
+    gap:40px;
+    margin-top: 8%;
+}
+
+.precio-skin3-caja1 {
+    margin-left: 3%;
+}
+
+.foto-skin3-caja1 {
+    display: flex;
+    position: relative;
+    margin-left: 29%;
+    width: 65px;
+    height: 50px;
+}
+
+.skin4-caja1 {
+    border-radius: 25%;
+    margin-bottom: 1%;
+    width: 14%;
+}
+
+.info-skin4-caja1 {
+    display: flex;
+    gap:30px;
+    margin-top: 8%;
+}
+
+.precio-skin4-caja1 {
+    margin-left: 3%;
+}
+
+.foto-skin4-caja1 {
+    display: flex;
+    position: relative;
+    margin-left: 29%;
+    width: 65px;
+    height: 50px;
+}
+
+.skin5-caja1 {
+    border-radius: 25%;
+    margin-bottom: 1%;
+    width: 14%;
+}
+
+.info-skin5-caja1 {
+    display: flex;
+    gap:34px;
+    margin-top: 8%;
+}
+
+.precio-skin5-caja1 {
+    margin-left: 3%;
+}
+
+.foto-skin5-caja1 {
+    display: flex;
+    position: relative;
+    margin-left: 28%;
+    width: 65px;
+    height: 50px;
+}
+
+/*A PARTIR DE ACÁ, CAJA 2*/
+
+.lugar-skins-caja2 {
+    display: flex;
+    gap: 1%;
+    margin-top: 5.65%;
+}
+
+.skin1-caja2 {
+    border-radius: 25%;
+    margin-bottom: 1%;
+    margin-left: 21%;
+    width: 14%;
+}
+
+.info-skin1-caja2 {
+    display: flex;
+    gap:30px;
+    margin-top: 8%;
+}
+
+.precio-skin1-caja2 {
+    margin-left: 3%;
+}
+
+.foto-skins-caja2 {
+    display: flex;
+    position: relative;
+    margin-left: 6%;
+    width: 20px;
+    height: 37px;
+}
+
+.nombre-skins-caja2-txt {
+    font-size: 120%;
+    margin-top: 5%;
+}
+
+/* a partir de acá cambio cosamas para skin 2 */
+
+.skin2-caja2 {
+    border-radius: 25%;
+    margin-bottom: 1%;
+    width: 14%;
+}
+
+.info-skin2-caja2 {
+    display: flex;
+    gap:64px;
+    margin-top: 8%;
+}
+
+.precio-skin2-caja2 {
+    margin-left: 3%;
+}
+
+.skin3-caja2 {
+    border-radius: 25%;
+    margin-bottom: 1%;
+    width: 14%;
+}
+
+.info-skin3-caja2 {
+    display: flex;
+    gap:64px;
+    margin-top: 8%;
+}
+
+.precio-skin3-caja2 {
+    margin-left: 3%;
+}
+
+.skin4-caja2 {
+    border-radius: 25%;
+    margin-bottom: 1%;
+    width: 14%;
+}
+
+.info-skin4-caja2 {
+    display: flex;
+    gap:35px;
+    margin-left: 4%;
+    margin-top: 8%;
+}
+
+.precio-skin4-caja2 {
+    margin-left: 3%;
+}
+
+.foto-skin4-caja2 {
+    display: flex;
+    position: relative;
+    margin-left: 29%;
+    width: 65px;
+    height: 50px;
+}
+
+/*Cosas de LogIn*/
+
+.fotopagina {
+    display: flex;
+    margin-left: 44.5%;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    height: 150px;
+}
+
+.login {
+    background-image: url(../imagenes/para-login.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:contain;
+    justify-content: center;
+    margin-top: 2.5%;
+    margin-bottom: 7.8%;
+    display: grid;
+    grid-template-rows: 100px 140px 50px 50px;
+    grid-template-areas:
+    "h1"
+    "Cartel"
+    "checkbox"
+    "ingresar";
+}
+
+.titulo {
+    text-align: left;
+    margin-top: 12%;
+    grid-area: h1;
+}
+
+.formulario {
+    grid-area: Cartel;
+    display: grid;
+    gap: 7%;
+    grid-template-areas:
+    "email"
+    "contrasena";
+}
+
+.checkbox {
+    margin-top: 3%;
+    color: rgb(255, 255, 255);
+    grid-area: checkbox;
+}
+
+.ingresar {
+    color: rgb(255, 255, 255);
+    background-color: rgba(20, 187, 117, 0.925);
+    margin-bottom: 9%;
+    grid-area: ingresar;
+}
+
+
+/*Cosas de FOOTER*/
+
+footer {
+    display: block;
+}
+
+.gmail-foto  {
+    height: 18px;
+    width: 18px;
+    
+}
+
+.gmail-text {
+    display: inline;
+    color: tomato;
+}
+
+
+.ig-foto {
+    height: 18px;
+    width: 18px;
+}
+
+.wpp-foto {
+    height: 18px;
+    width: 18px;
+}
+
+.wpp-text {
+    display: inline;
+    color: rgb(38, 230, 156);
+}
